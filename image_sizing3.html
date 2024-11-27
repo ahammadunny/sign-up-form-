@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="image_sizing3.css" / >
+
+</head>
+<body>
+    
+    <div class="example"> 
+     
+    <img width="400" height="400" class="caleb" src="../caleb-wright.jpg" >
+    <div class="band">
+    <img class="overlay" src="../dribbble-icon.svg" />
+    
+     <h4> DRIBBLE</h4> 
+    
+    </div>
+    </div>
+  <section class="details">
+    <p class="intro"> If you are already a subscriber, please sign-in now. The password is case sensitive. If yo are not yet a subscriber, sign-up now to get started.
+      <br></br>
+       <span>  you know you want to. </span>
+        <br></br> <br></br>
+
+         Let us do this.
+    </p>
+    <div class="login">
+  <div class="personal input-container">
+    <div>
+    <label for ="first-name" > FIRST-NAME*</label>
+    <input name="first-name id= "first-name"  / >
+    </div>
+    <div>
+    <label for="last-name" >LAST-NAME*</label>
+    <input name="last-name" id="last-name" / >
+    </div>
+  </div>
+  <div class="contact input-container" >
+    <div>
+    <label type="EMAIL" for="EMAIL" />EMAIL*</label>
+    <input name="EMAIL" id="EMAIL" title="must be of the pattern john@some domain name" />
+    </div>
+    <div>
+    <label type="PHONE"for="">PHONE NUMBER*</label>
+    <input name="PHONE NUMBER" id="NUMBER" / >
+    </div>
+  </div>
+  <div class="password input-container">
+    <div>
+  <label for="PASSWORD">PASSWORD*</label>
+  <!--<input name="PASSWORD" id="PASSWORD" /> -->
+  <input type="password" id="PASSWORD" name="PASSWORD" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+ <!-- <label for="PASSWORD"> *Passwords do not match</label>-->
+    </div>
+    <div>
+  <label for="CONFIRM PASSWORD">CONFIRM PASSWORD*</label>
+  <!--<input name="CONFIRM PASSWORD" ID="CONFIRM PASSWORD" /> -->
+  <input type="password" id="CONFIRM PASSWORD" name="CONFIRM PASSWORD" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+  
+   </div>
+  </div>
+  <br><br>
+  <div>
+  <button type="text">Create Account</button>
+  <br>
+  <p>Already have an account? Log in</p>
+  </div>
+  </div>
+  </section>
+</body>
+</html>
